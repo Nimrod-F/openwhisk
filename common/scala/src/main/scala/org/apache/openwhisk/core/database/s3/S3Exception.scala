@@ -26,7 +26,7 @@ import scala.xml.{Elem, XML}
 
 /**
   * Exception thrown by S3 operations.
-  * 
+  *
   * Copied from https://github.com/akka/alpakka/blob/v1.0.2/s3/src/main/scala/akka/stream/alpakka/s3/S3Exception.scala
   */
 private[s3] class S3Exception(val code: String, val message: String, val requestId: String, val hostId: String)
